@@ -1,0 +1,29 @@
+:root {
+    --back: #2b0245;
+    --motive: #feb93f;
+}
+::selection { color: var(--back); background-color: var(--motive); }
+html { scroll-behavior: smooth; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+body { margin: 0; padding: 0; overflow: hidden; background-color: var(--back); }
+
+
+header { 
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    color: var(--motive);
+    font-family: monospace;
+
+}
+header h1 { 
+    cursor: pointer;
+    font-size: 60px;
+    transition: all .5s;
+}
+header h1:hover { 
+    font-size: 80px;
+}
