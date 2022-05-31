@@ -37,6 +37,7 @@ header h2 {
 header span {
     font-size: 15px;
 }
+
 header span a {
     color: var(--motive);
     text-underline-position: auto;
