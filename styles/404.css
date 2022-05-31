@@ -17,13 +17,32 @@ header {
     width: 100vw;
     color: var(--motive);
     font-family: monospace;
-
 }
+
 header h1 { 
     cursor: pointer;
     font-size: 60px;
+    text-shadow: 0 0 10px var(--motive);
     transition: all .5s;
 }
 header h1:hover { 
-    font-size: 80px;
+    font-size: 70px;
+    text-shadow: 10px 10px 10px var(--motive);
+}
+
+header h2 {
+    font-size: 22.5px;
+}
+
+header span {
+    font-size: 15px;
+}
+header span a {
+    color: var(--motive);
+    text-underline-position: auto;
+    transition: all .5s;
+}
+header span a:hover {
+    color: var(--motive);
+    text-underline-position: under;
 }
