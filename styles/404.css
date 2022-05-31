@@ -40,10 +40,10 @@ header span {
 
 header span a {
     color: var(--motive);
-    text-underline-position: auto;
+    text-underline-position: under;
     transition: all .5s;
 }
 header span a:hover {
     color: var(--motive);
-    text-underline-position: under;
+    text-underline-position: auto;
 }
