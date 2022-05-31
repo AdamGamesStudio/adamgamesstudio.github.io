@@ -37,6 +37,9 @@ header h2 {
 header span {
     font-size: 15px;
 }
+header span:last-child {
+    white-space: pre-line;
+}
 
 header span a {
     color: var(--motive);
@@ -46,4 +49,9 @@ header span a {
 header span a:hover {
     color: var(--motive);
     text-underline-position: auto;
+}
+footer img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
